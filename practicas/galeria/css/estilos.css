@@ -9,8 +9,7 @@ body {
     width:100%;
 }
 .galeria img {
-    vertical-align: top;
-    vertical:400px;
+    vertical-align: top;    
     margin:20px;
     padding:5px;
     opacity: 0.5;
