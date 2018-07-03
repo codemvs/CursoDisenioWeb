@@ -104,3 +104,19 @@ footer{
     text-align:center;
 }
 /* Media Query */
+@media screen and (max-width:800px){
+    /* 800 px para abajo*/
+    body{
+        /* background: #000; */
+    }
+    .main {
+        width: 100%;
+    }
+    aside{
+        width:100%;
+    }
+    footer {
+        width:100%;
+    }
+
+}
