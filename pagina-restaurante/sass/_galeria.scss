@@ -1,0 +1,17 @@
+
+.galeria {
+    overflow: hidden;
+    .foto{
+        width: 25%;
+        float: left;
+        img {
+            width: 100%;
+            vertical-align: top;
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+                @include transition(all .3s ease);                
+            }
+        }
+    }
+}
