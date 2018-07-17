@@ -7,4 +7,7 @@ body {
     font-size: 16px;
 }
 
+@import "mixins"; // mixin
+
 @import "header";
+@import "principal";
