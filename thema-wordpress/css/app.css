@@ -75,4 +75,136 @@ header .menu ul li a:hover {
   background: #7780da;
 }
 
+.main .titulo-seccion h3,
+.sidebar .titulo-seccion h3 {
+  font-family: "Oswald", Sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: normal;
+  color: #3b3b3b;
+  padding-bottom: 0.62em;
+  border-bottom: 4px solid #48b04d;
+  margin-bottom: 1.25em;
+}
+
+.main .titulo-seccion > div {
+  padding: 0;
+}
+.main .posts .post {
+  margin-bottom: 1.875em;
+}
+.main .posts .post .contenedor {
+  negative: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.main .posts .post .contenedor .thumb img {
+  width: 100%;
+  vertical-align: top;
+  height: auto;
+}
+.main .posts .post .contenedor .info {
+  padding: 1.25em;
+}
+.main .posts .post .contenedor .info .titulo {
+  line-height: 1.126em;
+  margin-bottom: 1.25em;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 0;
+}
+.main .posts .post .contenedor .info .titulo a {
+  color: #3b3b3b;
+}
+.main .posts .post .contenedor .info .fecha {
+  color: #909090;
+  font-size: 0.875em;
+  margin-bottom: 1.25em;
+}
+.main .posts .post .contenedor .info .extracto {
+  color: #292929;
+  font-size: 1em;
+  height: 8.125em;
+  max-height: 8.125em;
+  line-height: 1.75em;
+  margin-bottom: 1.25em;
+  overflow: hidden;
+}
+.main .posts .post .contenedor .info .extracto:hover {
+  overflow: auto;
+}
+.main .posts .post .contenedor .info .categorias ul {
+  list-style: none;
+}
+.main .posts .post .contenedor .info .categorias ul li {
+  display: inline-block;
+}
+.main .posts .post .contenedor .info .categorias a {
+  color: #909090;
+  font-size: 1em;
+  font-weight: bold;
+  margin-right: 1.25em;
+}
+.main .posts .post .contenedor .info .categorias a:hover {
+  color: #5f6ad4;
+  text-decoration: none;
+}
+.main .paginacion > div {
+  padding: 0;
+}
+.main .paginacion ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1.25em;
+  font-size: 1em;
+}
+.main .paginacion ul li {
+  float: left;
+  background: #3b3b3b;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+.main .paginacion ul li.disabled {
+  padding: 0.62em 0.937em;
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+.main .paginacion ul li a {
+  background: #5f6ad4;
+  color: #fff;
+  line-height: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.937em;
+}
+.main .paginacion ul li a:hover {
+  background: #7780da;
+  text-decoration: none;
+}
+.main .wp-pagenavi {
+  margin-bottom: 1.25em;
+}
+.main .wp-pagenavi .pages,
+.main .wp-pagenavi span {
+  background: #3b3b3b;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1.125em;
+  padding: 0.62em 0.937em;
+}
+.main .wp-pagenavi a {
+  background: #5f6ad4;
+  color: #fff;
+  font-size: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.937em;
+  margin-right: 0.62em;
+}
+.main .wp-pagenavi ahover {
+  background: #7780da;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=app.css.map */
