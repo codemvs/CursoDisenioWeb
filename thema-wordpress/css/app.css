@@ -90,6 +90,9 @@ header .menu ul li a:hover {
 .main .titulo-seccion > div {
   padding: 0;
 }
+.main .single-post .categorias {
+  margin-bottom: 1.875em;
+}
 .main .posts .post {
   margin-bottom: 1.875em;
 }
